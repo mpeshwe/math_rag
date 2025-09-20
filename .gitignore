@@ -1,0 +1,55 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# IDE
+.vscode/settings.json
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Data and models (these can be large)
+data/raw/*
+data/processed/*
+data/vector_store/*
+*.db
+*.sqlite
+
+# Environment variables
+.env
+.env.local
+
+# Logs
+logs/
+*.log
+
+# Temporary files
+temp/
+tmp/
+
+# Data cache
+data/cached/
+*.pkl
+# Large model files - download separately
+models/math-embeddings-bge-small/
+math-embeddings-model/
+*.safetensors
+*.bin
+
+# Large model files - download separately
+models/
+math-embeddings-model/
+*.safetensors
+*.bin
+data/cached/
+data/vector_store/
