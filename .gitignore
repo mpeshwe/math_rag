@@ -47,7 +47,6 @@ math-embeddings-model/
 *.bin
 
 # Large model files - download separately
-models/
 math-embeddings-model/
 *.safetensors
 *.bin
